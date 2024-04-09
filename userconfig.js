@@ -286,6 +286,12 @@ const default_config = {
           name: "storage",
           links: [
             {
+              name: "raindrop",
+              url: "https://app.raindrop.io",
+              icon: "droplet-bolt",
+              icon_color: "#2178db",
+            },
+            {
               name: "drive",
               url: "https://drive.google.com/drive/u/0/my-drive",
               icon: "brand-google-drive",
