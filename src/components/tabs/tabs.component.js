@@ -132,7 +132,7 @@ class Tabs extends Component {
           width: 100%;
           height: 100%;
           right: 100%;
-          background: #1a1a38;; url("../img/bg-1.gif") repeat left;
+          background: #1a1a38ff;; url("../img/bg-1.gif") repeat left;
 	        transition: all .18s;
 	        # animation: scroll 25s ease-in-out infinite;
       }
@@ -197,7 +197,7 @@ class Tabs extends Component {
           right: 0;
           width: 70%;
           height: 100%;
-          background: #1a1a38;
+          background: #1a1a38ff;
 
           padding: 5%;
           flex-wrap: wrap;
@@ -217,7 +217,7 @@ class Tabs extends Component {
           display: inline-flex;
           align-items: center;
           padding: .4em .7em;
-          background: #34315c;
+          background: #34315cb2;
           box-shadow: 0 4px rgba(24, 24, 37, 0.5), 0 5px 10px rgb(0 0 0 / 20%);
           border-radius: 2px;
           margin-bottom: .7em;
