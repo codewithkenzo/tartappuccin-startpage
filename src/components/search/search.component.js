@@ -21,7 +21,7 @@ class Search extends Component {
           justify-content: center;
           width: calc(100% - 2px);
           height: 100%;
-          background: #222235;
+          background: #222235be;
           z-index: 99;
           visibility: hidden;
           top: -100%;
@@ -46,7 +46,7 @@ class Search extends Component {
           box-shadow: inset 0 -2px #53586b;
           padding: .5em 0;
           background: none;
-          font: 500 22px 'Roboto', sans-serif;
+          font: 500 22px 'Noto Sans Mono', sans-serif;
           letter-spacing: 1px;
           color: #cdd6f4;
       }

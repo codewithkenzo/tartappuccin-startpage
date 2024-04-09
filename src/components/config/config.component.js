@@ -21,7 +21,7 @@ class ConfigTab extends Component {
           justify-content: center;
           width: calc(100% - 2px);
           height: 100%;
-          background: rgb(24 24 29 / 80%);
+          background: #272349c5;
           z-index: 99;
           visibility: hidden;
           top: -100%;
@@ -43,12 +43,12 @@ class ConfigTab extends Component {
           border: 0;
           outline: 0;
           width: 100%;
-          box-shadow: inset 0 -2px #737373;
+          box-shadow: inset 0 -2px #2a2630;
           padding: .5em 0;
           background: none;
-          font: 300 16px 'Roboto', sans-serif;
+          font: 400 14px 'Noto Sans Mono', sans-serif;
           letter-spacing: 1px;
-          color: #d4be98;
+          color: #c5b3f0;
           resize: none;
           height: 300px;
           -ms-overflow-style: none;
@@ -56,12 +56,12 @@ class ConfigTab extends Component {
       }
 
       #config textarea:focus {
-          box-shadow: inset 0 -2px #d4be98;
+          box-shadow: inset 0 -2px #f38ba8;
       }
 
       #config textarea::selection {
-          background: #e78a4e;
-          color: #32302f;
+          background: #f38ba8;
+          color: #292424;
       }
 
       #config textarea::-webkit-scrollbar {
@@ -72,13 +72,13 @@ class ConfigTab extends Component {
           background: 0;
           border: 0;
           outline: 0;
-          color: #d4be98;
+          color: #f38ba8;
           position: absolute;
           right: 40px;
           cursor: pointer;
           top: 15px;
           font-size: 18px;
-          font-family: 'Roboto';
+          font-family: 'Noto Sans Mono';
       }
 
       #config .save:hover {
@@ -89,7 +89,7 @@ class ConfigTab extends Component {
           background: 0;
           border: 0;
           outline: 0;
-          color: #d4be98;
+          color: #f38ba8;
           position: absolute;
           right: 0;
           cursor: pointer;
