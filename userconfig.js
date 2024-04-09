@@ -87,17 +87,18 @@ const default_config = {
             icon_color: "#df6963",
           },
           {
+            name: "aniwave",
+            url: "https://aniwave.to/home",
+            icon: "player-play-filled",
+            icon_color: "#b76de2",
+          },
+          {
             name: "netflix",
             url: "https://www.netflix.com/browse",
             icon: "brand-netflix",
             icon_color: "#db4e4e",
           },
-          {
-            name: "aniwave",
-            url: "https://aniwave.to/home",
-            icon: "brand-netflix",
-            icon_color: "#b76de2",
-          },
+          
           {
             name: "twitch",
             url: "https://www.twitch.tv/",
