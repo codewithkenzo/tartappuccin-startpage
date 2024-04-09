@@ -89,7 +89,7 @@ class Tabs extends Component {
       status-bar {
           bottom: -70px;
           height: 32px;
-          background: #212147;
+          background: #1a1a38;
           border-radius: 4px;
           box-shadow: 0 10px 20px rgba(0, 0, 0, .25);
       }
@@ -132,7 +132,7 @@ class Tabs extends Component {
           width: 100%;
           height: 100%;
           right: 100%;
-          background: #212147; url("../img/bg-1.gif") repeat left;
+          background: #1a1a38;; url("../img/bg-1.gif") repeat left;
 	        transition: all .18s;
 	        # animation: scroll 25s ease-in-out infinite;
       }
@@ -197,7 +197,7 @@ class Tabs extends Component {
           right: 0;
           width: 70%;
           height: 100%;
-          background: #212147;
+          background: #1a1a38;
 
           padding: 5%;
           flex-wrap: wrap;
