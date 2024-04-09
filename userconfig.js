@@ -3,7 +3,7 @@ let saved_config = JSON.parse(localStorage.getItem("CONFIG"));
 const default_config = {
   overrideStorage: true,
   temperature: {
-    location: 'Milan',
+    location: 'Milan, IT',
     scale: "C",
   },
   clock: {
