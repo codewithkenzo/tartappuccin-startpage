@@ -52,18 +52,8 @@ const default_config = {
             icon: "brand-reddit",
             icon_color: "#ca9673",
           },
-          {
-            name: "youtube",
-            url: "https://www.youtube.com/",
-            icon: "brand-youtube-filled",
-            icon_color: "#df6963",
-          },
-          {
-            name: "twitch",
-            url: "https://www.twitch.tv/",
-            icon: "brand-twitch",
-            icon_color: "#d671f0",
-          },
+          
+          
         ],
       }, {
         name: "Games",
@@ -91,6 +81,12 @@ const default_config = {
         name: "Video",
         links: [
           {
+            name: "youtube",
+            url: "https://www.youtube.com/",
+            icon: "brand-youtube-filled",
+            icon_color: "#df6963",
+          },
+          {
             name: "netflix",
             url: "https://www.netflix.com/browse",
             icon: "brand-netflix",
@@ -101,6 +97,12 @@ const default_config = {
             url: "https://aniwave.to/home",
             icon: "brand-netflix",
             icon_color: "#b76de2",
+          },
+          {
+            name: "twitch",
+            url: "https://www.twitch.tv/",
+            icon: "brand-twitch",
+            icon_color: "#d671f0",
           },
         ],
       }],
