@@ -21,7 +21,7 @@ class Search extends Component {
           justify-content: center;
           width: calc(100% - 2px);
           height: 100%;
-          background: rgb(24 24 29 / 80%);
+          background: #222235;
           z-index: 99;
           visibility: hidden;
           top: -100%;
@@ -43,28 +43,28 @@ class Search extends Component {
           border: 0;
           outline: 0;
           width: 100%;
-          box-shadow: inset 0 -2px #737373;
+          box-shadow: inset 0 -2px #53586b;
           padding: .5em 0;
           background: none;
           font: 500 22px 'Roboto', sans-serif;
           letter-spacing: 1px;
-          color: #d4be98;
+          color: #cdd6f4;
       }
 
       #search input:focus {
-          box-shadow: inset 0 -2px #d4be98;
+          box-shadow: inset 0 -2px #a6e3a1;
       }
 
       #search input::selection {
-          background: #e78a4e;
-          color: #32302f;
+          background: #f38ba8;
+          color: #181825;
       }
 
       #search .close {
           background: 0;
           border: 0;
           outline: 0;
-          color: #d4be98;
+          color: #a6e3a1;
           position: absolute;
           right: 0;
           cursor: pointer;
@@ -77,7 +77,7 @@ class Search extends Component {
 
       .search-engines {
           list-style: none;
-          color: rgba(212, 190, 152, 0.5);
+          color: #a6e3a1;
           display: flex;
           padding: 0;
           top: 50px;
@@ -97,7 +97,7 @@ class Search extends Component {
       }
 
       .search-engines li.active {
-          color: #d4be98;
+          color: #f38ba8;
           font-weight: 700;
       }
     `;

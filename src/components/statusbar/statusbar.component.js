@@ -69,7 +69,8 @@ class Statusbar extends Component {
           width: 35px;
           text-align: center;
           font: 700 13px 'Yu Gothic', serif;
-          color: rgba(212, 190, 152, 0.5);
+          color: rgba(205, 214, 244, 0.5);
+
           padding: 6px 0;
           transition: all .1s;
           cursor: pointer;
@@ -78,7 +79,8 @@ class Statusbar extends Component {
       }
 
       #tabs ul li:not(:last-child):hover {
-          background: #32302f;
+        background: #181825;
+
       }
 
       #tabs ul li:last-child {
@@ -91,7 +93,8 @@ class Statusbar extends Component {
       }
 
       #tabs ul li[active]:not(:last-child) {
-          color: #d4be98;
+        color: #cdd6f4;
+
           font-size: 13px;
           padding: 6px 0;
       }
@@ -109,47 +112,48 @@ class Statusbar extends Component {
       #tabs ul li[active]:nth-child(12) ~ li:last-child { margin: 0 0 0 385px; }
 
       #tabs ul li[active]:nth-child(2) ~ li:last-child {
-          --flavour: #e78a4e;
-      }
+        --flavour: #fab387;
+    }
 
-      #tabs ul li[active]:nth-child(3) ~ li:last-child {
-          --flavour: #ea6962;
-      }
+    #tabs ul li[active]:nth-child(3) ~ li:last-child {
+        --flavour: #f38ba8;
+    }
 
-      #tabs ul li[active]:nth-child(4) ~ li:last-child {
-          --flavour: #7daea3;
-      }
+    #tabs ul li[active]:nth-child(4) ~ li:last-child {
+        --flavour: #94e2d5;
+    }
 
-      #tabs ul li[active]:nth-child(5) ~ li:last-child {
-          --flavour: #d3869b;
-      }
+    #tabs ul li[active]:nth-child(5) ~ li:last-child {
+        --flavour: #f5c2e7;
+    }
 
-      #tabs ul li[active]:nth-child(6) ~ li:last-child {
-          --flavour: #89b482;
-      }
 
-      #tabs ul li[active]:nth-child(7) ~ li:last-child {
-          --flavour: #a9b665;
-      }
+    #tabs ul li[active]:nth-child(6) ~ li:last-child {
+      --flavour: #fab387;
+  }
 
-      #tabs ul li[active]:nth-child(8) ~ li:last-child {
-          --flavour: #e78a4e;
-      }
+  #tabs ul li[active]:nth-child(7) ~ li:last-child {
+      --flavour: #f38ba8;
+  }
 
-      #tabs ul li[active]:nth-child(9) ~ li:last-child {
-          --flavour: #ea6962;
-      }
+  #tabs ul li[active]:nth-child(8) ~ li:last-child {
+      --flavour: #94e2d5;
+  }
 
-      #tabs ul li[active]:nth-child(10) ~ li:last-child {
-          --flavour: #7daea3;
+  #tabs ul li[active]:nth-child(9) ~ li:last-child {
+      --flavour: #f5c2e7;
+  }
+
+#tabs ul li[active]:nth-child(10) ~ li:last-child {
+          --flavour: #fab387;
       }
 
       #tabs ul li[active]:nth-child(11) ~ li:last-child {
-          --flavour: #d3869b;
+          --flavour: #f38ba8;
       }
 
       #tabs ul li[active]:nth-child(12) ~ li:last-child {
-          --flavour: #89b482;
+          --flavour: #94e2d5;
       }
 
       .widgets {
@@ -208,8 +212,8 @@ class Statusbar extends Component {
 
       .fastlink {
           border: 0;
-          background: #32302f;
-          color: #a9b665;
+          background: #272349;
+          color: #a6e3a1;
           cursor: pointer;
           border-radius: 5px 15px 15px 5px;
       }

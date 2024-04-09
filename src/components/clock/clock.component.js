@@ -19,14 +19,14 @@ class Clock extends Component {
     return `
         .clock-time {
             white-space: nowrap;
-            font: 300 9pt 'Roboto', sans-serif;
-            color: #d4be98;
+            font: 600 10pt 'DM Sans', sans-serif;
+            color: #cdd6f4;
             letter-spacing: .5px;
         }
 
         .clock-icon {
-            color: #ea6962;
-            font-size: 10pt;
+            color: #f38ba8;
+            font-size: 14pt;
             margin-right: 10px;
         }
     `;
