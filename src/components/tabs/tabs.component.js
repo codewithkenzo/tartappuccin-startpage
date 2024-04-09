@@ -211,12 +211,13 @@ class Tabs extends Component {
         color: #cdd6f4;
 
           text-decoration: none;
-          font: 700 18px 'Roboto', sans-serif;
+          font: 700 18px 'Noto Sans Mono', sans-serif;
+          font-family: 'Arial';
           transition: all .18s;
           display: inline-flex;
           align-items: center;
           padding: .4em .7em;
-          background: #181825;
+          background: #34315c;
           box-shadow: 0 4px rgba(24, 24, 37, 0.5), 0 5px 10px rgb(0 0 0 / 20%);
           border-radius: 2px;
           margin-bottom: .7em;
