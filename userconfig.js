@@ -52,6 +52,13 @@ const default_config = {
             icon: "brand-reddit",
             icon_color: "#ca9673",
           },
+          {
+            name: "instagram",
+            url: "https://www.instagram.com/",
+            icon: "brand-instagram",
+            icon_color: "#8770da",
+          },
+          
           
           
         ],
