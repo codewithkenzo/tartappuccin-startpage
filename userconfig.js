@@ -92,13 +92,13 @@ const default_config = {
         links: [
           {
             name: "netflix",
-            url: "https://www.disneyplus.com/home",
+            url: "https://www.netflix.com/browse",
             icon: "brand-netflix",
             icon_color: "#8c0000",
           },
           {
             name: "aniwave",
-            url: "https://www.primevideo.com/region/eu/?ref_=dv_web_unknown",
+            url: "https://aniwave.to/home",
             icon: "brand-netflix",
             icon_color: "#8953a8",
           },
