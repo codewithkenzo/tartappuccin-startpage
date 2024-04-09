@@ -88,8 +88,8 @@ class Search extends Component {
       .search-engines li p {
           cursor: default;
           transition: all .2s;
-          font-size: 12px;
-          font-family: 'Roboto', sans-serif;
+          font-size: 18px;
+          font-family: 'Noto Sans Mono', sans-serif;
       }
 
       .search-engines li {
