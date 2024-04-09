@@ -30,7 +30,7 @@ const default_config = {
   tabs: [
     {
       name: "chi ll",
-      background_url: "src/img/banners/cbg-2.gif",
+      background_url: "src/img/banners/cbg-13.gif",
       categories: [{
         name: "Social Media",
         links: [
@@ -181,7 +181,7 @@ const default_config = {
     },
     {
       name: "dev",
-      background_url: "src/img/banners/cbg-7.gif",
+      background_url: "src/img/banners/cbg-8.gif",
       categories: [
         {
           name: "repositories",
