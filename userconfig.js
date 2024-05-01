@@ -58,9 +58,9 @@ const default_config = {
             icon: "brand-instagram",
             icon_color: "#8770da",
           },
-          
-          
-          
+
+
+
         ],
       }, {
         name: "Games",
@@ -96,8 +96,13 @@ const default_config = {
           {
             name: "aniwave",
             url: "https://aniwave.to/home",
-            icon: "player-play-filled",
+            icon: "brand-funimation",
             icon_color: "#b76de2",
+          },{
+            name: "mangafire",
+            url: "https://mangafire.to/home",
+            icon: "books",
+            icon_color: "#1972c6",
           },
           {
             name: "netflix",
@@ -105,7 +110,7 @@ const default_config = {
             icon: "brand-netflix",
             icon_color: "#db4e4e",
           },
-          
+
           {
             name: "twitch",
             url: "https://www.twitch.tv/",
@@ -220,10 +225,10 @@ const default_config = {
               icon_color: "#d2d39c",
             },
             {
-              name: "hacktricks",
-              url: "https://book.hacktricks.xyz/welcome/readme",
-              icon: "biohazard",
-              icon_color: "#ea6962",
+              name: "roadmap.sh",
+              url: "https://roadmap.sh/full-stack",
+              icon: "sitemap",
+              icon_color: "#ccd300",
             },
             {
               name: "javascript",
@@ -231,8 +236,8 @@ const default_config = {
               icon: "brand-javascript",
               icon_color: "#f3f589",
             }
-            
-            
+
+
           ],
         },
         {
@@ -307,7 +312,7 @@ const default_config = {
               icon: "brand-google-drive",
               icon_color: "#6ad3b0",
             },
-            
+
             {
               name: "photos",
               url: "https://photos.google.com/u/1",
