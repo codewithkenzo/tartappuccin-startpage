@@ -203,7 +203,7 @@ const default_config = {
           links: [
             {
               name: "github",
-              url: "https://github.com/",
+              url: "https://github.com/codewithkenzo?tab=repositories",
               icon: "brand-github",
               icon_color: "#7daea3",
             },
@@ -320,9 +320,9 @@ const default_config = {
               icon_color: "#8bdfe6",
             },
             {
-              name: "dropbox",
-              url: "https://www.dropbox.com/h?role=personal&di=left_nav",
-              icon: "box-seam",
+              name: "filen",
+              url: "https://filen.io/",
+              icon: "brand-foursquare",
               icon_color: "#98e0d1",
             },
           ],
