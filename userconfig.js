@@ -327,6 +327,18 @@ const default_config = {
             },
           ],
         },
+         {
+          name: "filen",
+          links: [
+                       {
+              name: "filen",
+              url: "https://drive.filen.io/",
+              icon: "brand-foursquare",
+              icon_color: "#21122A",
+            },
+          ],
+        },
+
       ],
     },
   ],
