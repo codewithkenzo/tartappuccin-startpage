@@ -35,7 +35,7 @@ const default_config = {
         name: "Social Media",
         links: [
           {
-            name: "whatsapp",
+            name: "facebook",
             url: "https://web.whatsapp.com/",
             icon: "brand-whatsapp",
             icon_color: "#65b690",
@@ -105,7 +105,7 @@ const default_config = {
             icon_color: "#1972c6",
           },
           {
-            name: "netflix",
+            name: "",
             url: "https://www.netflix.com/browse",
             icon: "brand-netflix",
             icon_color: "#db4e4e",
@@ -294,7 +294,26 @@ const default_config = {
               url: "https://calendar.google.com/calendar/u/0/r",
               icon: "calendar",
               icon_color: "#f0e6ac",
-            }
+            },
+            {
+              name: "linkedin",
+              url: "https://www.linkedin.com/feed/",
+              icon: "brand-linkedin",
+              icon_color: "#8dc4f1",
+            },
+{
+              name: "linkedin",
+              url: "https://www.linkedin.com/feed/",
+              icon: "brand-linkedin",
+              icon_color: "#8dc4f1",
+            },
+{
+              name: "linkedin",
+              url: "https://www.linkedin.com/feed/",
+              icon: "brand-linkedin",
+              icon_color: "#8dc4f1",
+            },
+
           ],
         },
         {
@@ -309,7 +328,7 @@ const default_config = {
             {
               name: "drive",
               url: "https://drive.google.com/drive/u/0/my-drive",
-              icon: "brand-google-drive",
+           icon: "brand-google-drive",
               icon_color: "#6ad3b0",
             },
 
@@ -328,18 +347,12 @@ const default_config = {
           ],
         },
         {
-          name: "stuff",
+          name: "auth",
           links: [
-            {
-              name: "linkedin",
-              url: "https://www.linkedin.com/feed/",
-              icon: "brand-linkedin",
-              icon_color: "#8dc4f1",
-            },
-            {
-              name: "indeed",
-              url: "https://it.indeed.com/?r=us",
-              icon: "brand-linkedin",
+                       {
+              name: "ente",
+              url: "https://auth.ente.io/auth",
+              icon: "lock-square-rounded",
               icon_color: "#bcdae7",
             },
           ],
