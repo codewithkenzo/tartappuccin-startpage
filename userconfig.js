@@ -325,9 +325,7 @@ const default_config = {
               icon: "lock-square-rounded",
               icon_color: "#bcdae7",
             },
-          ],
-        },
-         {
+            {
           name: "filen",
           links: [
                        {
@@ -338,6 +336,9 @@ const default_config = {
             },
           ],
         },
+          ],
+        },
+        
 
       ],
     },
