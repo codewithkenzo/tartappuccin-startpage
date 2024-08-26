@@ -36,7 +36,7 @@ const default_config = {
         links: [
           {
             name: "facebook",
-            url: "https://web.whatsapp.com/",
+            url: "https://www.facebook.com/",
             icon: "brand-whatsapp",
             icon_color: "#65b690",
           },
