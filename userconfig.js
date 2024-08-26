@@ -35,28 +35,16 @@ const default_config = {
         name: "Social Media",
         links: [
           {
-            name: "facebook",
-            url: "https://www.facebook.com/",
+            name: "whatsapp",
+            url: "https://web.whatsapp.com/",
             icon: "brand-whatsapp",
             icon_color: "#65b690",
-          },
-          {
-            name: "twitter",
-            url: "https://twitter.com/home",
-            icon: "brand-twitter-filled",
-            icon_color: "#508bcf",
           },
           {
             name: "reddit",
             url: "https://www.reddit.com/",
             icon: "brand-reddit",
             icon_color: "#ca9673",
-          },
-          {
-            name: "instagram",
-            url: "https://www.instagram.com/",
-            icon: "brand-instagram",
-            icon_color: "#8770da",
           },
 
 
@@ -104,12 +92,6 @@ const default_config = {
             icon: "books",
             icon_color: "#1972c6",
           },
-          {
-            name: "",
-            url: "https://www.netflix.com/browse",
-            icon: "brand-netflix",
-            icon_color: "#db4e4e",
-          },
 
           {
             name: "twitch",
@@ -134,12 +116,6 @@ const default_config = {
               icon_color: "#ea6962",
             },
             {
-              name: "artstation",
-              url: "https://www.artstation.com/?sort_by=community",
-              icon: "chart-area",
-              icon_color: "#7daea3",
-            },
-            {
               name: "deviantart",
               url: "https://www.deviantart.com/",
               icon: "brand-deviantart",
@@ -157,16 +133,10 @@ const default_config = {
           name: "resources",
           links: [
             {
-              name: "figma",
-              url: "https://www.figma.com",
+              name: "framer",
+              url: "https://www.framer.com",
               icon: "brand-figma",
               icon_color: "#d3869b",
-            },
-            {
-              name: "uxpro",
-              url: "https://uxpro.cc/",
-              icon: "components",
-              icon_color: "#a9b665",
             },
             {
               name: "colorhunt",
@@ -296,10 +266,10 @@ const default_config = {
               icon_color: "#f0e6ac",
             },
             {
-              name: "linkedin",
-              url: "https://www.linkedin.com/feed/",
-              icon: "brand-linkedin",
-              icon_color: "#8dc4f1",
+              name: "proton",
+              url: "https://mail.proton.me/u/0/inbox",
+              icon: "brand-gmail",
+              icon_color: "#7234A2",
             },
 {
               name: "linkedin",
