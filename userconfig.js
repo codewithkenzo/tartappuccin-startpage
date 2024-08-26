@@ -271,18 +271,6 @@ const default_config = {
               icon: "brand-gmail",
               icon_color: "#7234A2",
             },
-{
-              name: "linkedin",
-              url: "https://www.linkedin.com/feed/",
-              icon: "brand-linkedin",
-              icon_color: "#8dc4f1",
-            },
-{
-              name: "linkedin",
-              url: "https://www.linkedin.com/feed/",
-              icon: "brand-linkedin",
-              icon_color: "#8dc4f1",
-            },
 
           ],
         },
@@ -326,17 +314,12 @@ const default_config = {
               icon_color: "#bcdae7",
             },
             {
-          name: "filen",
-          links: [
-                       {
-              name: "filen",
-              url: "https://drive.filen.io/",
-              icon: "brand-foursquare",
-              icon_color: "#21122A",
+              name: "Proton",
+              url: "https://pass.proton.me/u/0",
+              icon: "brand-apple-arcade",
+              icon_color: "#BE8FB0",
             },
-          ],
-        },
-          ],
+                      ],
         },
         
 
