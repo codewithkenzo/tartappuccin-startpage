@@ -175,7 +175,7 @@ const default_config = {
               name: "github",
               url: "https://github.com/codewithkenzo?tab=repositories",
               icon: "brand-github",
-              icon_color: "#7daea3",
+              icon_color: "#e78a4e",
             },
             {
               name: "gitlab",
