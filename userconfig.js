@@ -83,7 +83,7 @@ const default_config = {
           },
           {
             name: "hianime",
-            url: "https://hianime.nz/",
+            url: "https://hianime.nz/home",
             icon: "brand-funimation",
             icon_color: "#b76de2",
           },{
