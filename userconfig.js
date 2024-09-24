@@ -107,7 +107,7 @@ const default_config = {
       background_url: "src/img/banners/cbg-6.gif",
       categories: [
         {
-          name: "inspiration",
+          name: "showcase",
           links: [
             {
               name: "pinterest",
@@ -115,6 +115,17 @@ const default_config = {
               icon: "brand-pinterest",
               icon_color: "#ea6962",
             },
+            {
+              name: "dribble",
+              url: "https://dribbble.com/following",
+              icon: "brand-dribbble-filled",
+              icon_color: "#d3869b",
+            },
+          ],
+        },
+        {
+          name: "inspiration",
+          links: [
             {
               name: "landbook",
               url: "https://land-book.com/",
@@ -133,16 +144,10 @@ const default_config = {
               icon: "brand-deviantart",
               icon_color: "#89b482",
             },
-            {
-              name: "dribble",
-              url: "https://dribbble.com/following",
-              icon: "brand-dribbble-filled",
-              icon_color: "#d3869b",
-            },
           ],
         },
         {
-          name: "resources",
+          name: "tools",
           links: [
             {
               name: "figma",
