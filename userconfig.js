@@ -82,8 +82,8 @@ const default_config = {
             icon_color: "#df6963",
           },
           {
-            name: "aniwave",
-            url: "https://aniwave.to/home",
+            name: "hianime",
+            url: "https://hianime.nz/",
             icon: "brand-funimation",
             icon_color: "#b76de2",
           },{
@@ -116,8 +116,20 @@ const default_config = {
               icon_color: "#ea6962",
             },
             {
-              name: "deviantart",
-              url: "https://www.deviantart.com/",
+              name: "landbook",
+              url: "https://land-book.com/",
+              icon: "brand-deviantart",
+              icon_color: "#89b482",
+            },
+            {
+              name: "godly",
+              url: "https://godly.website/",
+              icon: "brand-deviantart",
+              icon_color: "#89b482",
+            },
+            {
+              name: "dark.design",
+              url: "https://www.dark.design/",
               icon: "brand-deviantart",
               icon_color: "#89b482",
             },
@@ -133,6 +145,12 @@ const default_config = {
           name: "resources",
           links: [
             {
+              name: "figma",
+              url: "https://www.figma.com",
+              icon: "brand-figma",
+              icon_color: "#d3869b",
+            },
+            {
               name: "framer",
               url: "https://www.framer.com",
               icon: "brand-figma",
@@ -143,25 +161,9 @@ const default_config = {
               url: "https://colorhunt.co/",
               icon: "color-picker",
               icon_color: "#ea6962",
-            },{
-              name: "producthunt",
-              url: "https://www.producthunt.com/",
-              icon: "brand-producthunt",
-              icon_color: "#ea3922",
             },
           ],
-        },
-        {
-          name: "resources 3d",
-          links: [
-            {
-              name: "thingiverse",
-              url: "https://www.thingiverse.com/",
-              icon: "circle-letter-t",
-              icon_color: "#7daea3",
-            },
-          ],
-        },
+        }
       ],
     },
     {
@@ -189,8 +191,8 @@ const default_config = {
           name: "resources",
           links: [
             {
-              name: "codepen",
-              url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+              name: "js-course",
+              url: "https://traversy.hecked.workers.dev/0:/Modern%20JavaScript%20From%20The%20Beginning%202.0%20[For%20Streaming]/",
               icon: "brand-codepen",
               icon_color: "#d2d39c",
             },
